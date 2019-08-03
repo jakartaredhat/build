@@ -13,7 +13,7 @@
          <outputDirectory>/</outputDirectory>
          <includes>
             <include>readme.txt</include>
-            <include>apl.txt</include>
+            <include>EFTL.txt</include>
             <!-- We don't deliver this file anymore  -->
             <!--include>release-notes.txt</include-->
             <!-- Unused since 1.1.x -->
