@@ -26,6 +26,12 @@
    <dependencies>
       <dependency>
          <groupId>org.jboss.cdi.tck</groupId>
+         <artifactId>cdi-tck-parent</artifactId>
+         <version>${cdi.tck.version}</version>
+         <type>pom</type>
+      </dependency>
+      <dependency>
+         <groupId>org.jboss.cdi.tck</groupId>
          <artifactId>cdi-tck-api</artifactId>
          <version>${cdi.tck.version}</version>
          <optional>true</optional>
@@ -150,6 +156,7 @@
       <plugins>
          <plugin>
             <artifactId>maven-assembly-plugin</artifactId>
+            <version>3.1.1</version>
             <executions>
                <execution>
                   <id>distribution</id>
