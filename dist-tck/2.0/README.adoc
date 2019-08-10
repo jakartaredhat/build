@@ -53,7 +53,7 @@ To install the TCK:
 * download Wildfly https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final.zip[https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final.zip] and unzip to create
 a wildfly-17.0.1.Final directory
 * Set the JBOSS_HOME environment variable to the path of the wildfly-17.0.1.Final directory
-* Checkout the weld-core repository `git https://github.com/weld/core.git weld-core`
+* Checkout the weld-core repository `git clone https://github.com/weld/core.git weld-core`
 * Cd to weld-core
 * git checkout 3.1.1.Final
 * Run `mvn clean package -Dtck -f jboss-as/pom.xml` to install TCK ext lib into wildfly-17.0.1.Final (needed for about 4 tests)
